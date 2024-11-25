@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #03050a;
+    color: #1e2836;
+  }
+  
+  .card {
+    background-color: #504343;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(44, 1, 1, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-img-top {
+    max-height: 200px;
+    object-fit: contain;
+    background-color: #1f1d1dd4;
+  }
+  
+  .card-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #d9e0e7;
+    font-size: 0.95rem;
+  }
+  
+  .btn-dark {
+    background-color: #1f2933;
+    border-color: #1f2933;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #3a4751;
+    border-color: #3a4751;
+  }

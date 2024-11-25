@@ -1,0 +1,35 @@
+body {
+    background-color: #323f4b;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #ac1919;
+    font-weight: bold;
+  }
+  
+  .service-card {
+    background-color: #a31c9e;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-img {
+    max-width: 60px;
+  }
+  
+  .card-title {
+    color: #7c0000;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: #9aa5b1;
+    font-size: 0.95rem;
+  }

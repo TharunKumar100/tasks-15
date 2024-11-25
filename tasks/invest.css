@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #75d890;
+    padding: -40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: -20px;
+    display: flex;
+    text-align: center;
+}
+nav ul li {
+    margin-right: 20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    text-align: center;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+}
+
+.contact-number {
+    font-size: 1.2em;
+    color: #0073e6;
+    text-align: right;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 50px;
+    background: url('c:/Users/tharu/Downloads/invest.jpg') center/cover no-repeat;
+    color: #eeeeee;
+}
+
+.hero-section h1 {
+    font-size: 2em;
+}
+
+
+.hero-section button {
+    background-color: #f7b731;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: -80px 180px;
+    height: 200px;
+}
+
+.serv-card {
+    background-color: #f50505;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.ser-card{
+    background-color: #00ff08;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.servi-card{
+    background-color: #00a2ff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color: #eeeeee;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.service-card h3 {
+    color: #333;
+}
+
+.service-card span {
+    color: #0073e6;
+}
+
+.service-card a {
+    display: block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.about {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 180px;
+    height: 200px;
+
+
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-block {
+    width: 45%;
+}

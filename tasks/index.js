@@ -1,0 +1,43 @@
+var name = prompt("Enter name")
+var dept=prompt("Enter your Dept:")
+var clg=prompt("Enter your College:")
+console.log("Hello My name "+name+" My Stream is "+dept+" from " +clg)
+
+console.log("SIMPLE ARITHMETIC:-")
+var a=parseInt(prompt("Enter first Number:"))
+var b=parseInt(prompt("Enter Second Number:"))
+console.log("The sum is", +(a+b))
+console.log("The diff is",a-b)
+console.log("The product is",a*b)
+console.log("The divide by",parseInt(a/b))
+
+console.log("ITEMIZED RECEIPT:-")
+var food=prompt("Enter the name of food:")
+var juice=prompt("Enter name of juice:")
+var pri1=parseInt(prompt("Enter price of food:"))
+var pri2=parseInt(prompt("Enter price of juice:"))
+console.log("1) "+food+": Rs : "+pri1)
+console.log("2) "+juice+": Rs : "+pri2)
+console.log("Total :Rs "+(pri1+pri2))
+
+console.log("RECTANGLE PERIMETER:-")
+var len=parseInt(prompt("Length of Rectangle:"))
+var wid=parseInt(prompt("Width of Rectangle:"))
+console.log("PERIMETER is: ",parseInt((len+wid)/2))
+
+console.log("Circle Area of Circumfurance")
+var rad=parseInt(prompt("enter Radius:"))
+console.log("Area is ",parseInt(3.14*3.14*rad))
+console.log("circumfurance is ",parseInt(2*3.14*rad))
+
+console.log("BMI CALCULATION:-")
+var W=prompt("Enter your Weight:")
+var H=prompt("Enter your height:")
+console.log("Your BMI is",parseInt(W/(H*H)))
+
+console.log("Favorite MOvie:-")
+var mov=prompt("Enter your fav Movie:")
+var direc=prompt("Enter Movie Director:")
+var date=prompt("Relesed Movie Date:")
+console.log("My Favourite Movie  "+mov+" it  Directed by "+direc+"  its  released in "+date)
+

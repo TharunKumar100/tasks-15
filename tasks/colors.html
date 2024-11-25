@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .box {
+            height: 100%;
+            padding: 100px;
+        }
+        .box1 { background-color: rgb(227, 135, 150); }
+        .box2 { background-color: rgb(100, 96, 185); }
+        .box3 { background-color: rgb(160, 160, 82); }
+        .box4 { background-color: rgb(144, 59, 116); }
+        .box5 { background-color: rgb(54, 134, 137);}
+        .box6 { background-color: rgb(97, 171, 66); }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-4">
+                <div class="box box1">1</div>
+            </div>
+            <div class="col-8">
+                <div class="row mb-4">
+                    <div class="col-3">
+                        <div class="box box2">2</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box box3">3</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box box4">2</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="box box5">3</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box box6">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

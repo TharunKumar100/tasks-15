@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+        h2 {
+            text-align: center;
+            color: #f10879;
+            text-decoration: underline;
+            font-size: 24px;
+        }
+        .form-container {
+            width: 40%;
+            margin: auto;
+            background-color: #cf2222;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            color: white;
+        }
+        .form-container table {
+            width: 80%;
+            color: white;
+        }
+        .form-container td {
+            padding: 5px;
+            vertical-align: middle;
+        }
+        .form-container input[type="text"], 
+        .form-container input[type="email"], 
+        .form-container input[type="tel"], 
+        .form-container select, 
+        .form-container textarea {
+            width: 60%;
+            padding: 5px;
+            border: none;
+            border-radius: 7px;
+            margin-right: 5px;
+        }
+        .form-container input[type="radio"], 
+        .form-container input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .buttons {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .buttons input {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background-color: white;
+            color: #e93c33;
+            font-weight: bold;
+        }
+        .buttons input:hover {
+            background-color: s#11fefa;
+        }
+        .field-note {
+            font-size: 12px;
+            color: #ddd;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+    <div class="form-container">
+        <form>
+            <table>
+                <tr>
+                    <td>FIRST NAME</td>
+                    <td>
+                        <input type="text" maxlength="30">
+                        <span class="field-note">(max 30 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>LAST NAME</td>
+                    <td>
+                        <input type="text" maxlength="30">
+                        <span class="field-note">(max 30 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DATE OF BIRTH</td>
+                    <td>
+                        <input type="number" placeholder="Day" style="width: 25%;" min="1" max="31">
+                        <input type="number" placeholder="Month" style="width: 25%;" min="1" max="12">
+                        <input type="number" placeholder="Year" style="width: 30%;" min="1900" max="2100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>EMAIL ID</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NUMBER</td>
+                    <td>
+                        <input type="tel" maxlength="10" pattern="[0-9]{10}">
+                        <span class="field-note">(10 digit number)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"> Male
+                        <input type="radio" name="gender" value="Female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>ADDRESS</td>
+                    <td><textarea rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>CITY</td>
+                    <td>
+                        <input type="text" maxlength="30">
+                        <span class="field-note">(max 30 characters a-z and A-Z)</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PIN CODE</td>
+                    <td><input type="text" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td>STATE</td>
+                    <td><input type="text" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td>COUNTRY</td>
+                    <td><input type="text" value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td>HOBBIES</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="Drawing"> Drawing
+                        <input type="checkbox" name="hobbies" value="Singing"> Singing
+                        <input type="checkbox" name="hobbies" value="Dancing"> Dancing
+                        <input type="checkbox" name="hobbies" value="Sketching"> Sketching
+                        <input type="checkbox" name="hobbies" value="Others"> Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>QUALIFICATION</td>
+                    <td>
+                        <table border="1" style="width:100%; color:white;">
+                            <tr>
+                                <th>Sl.No.</th>
+                                <th>Examination</th>
+                                <th>Board</th>
+                                <th>Percentage</th>
+                                <th>Year of Passing</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>COURSES APPLIED FOR</td>
+                    <td>
+                        <input type="checkbox" name="course" value="BCA"> BCA
+                        <input type="checkbox" name="course" value="B.Com"> B.Com
+                        <input type="checkbox" name="course" value="B.Sc"> B.Sc
+                        <input type="checkbox" name="course" value="B.A"> B.A
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="buttons">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

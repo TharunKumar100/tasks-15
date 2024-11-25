@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: relative;
+    height: 100vh;
+    background: url('C:/Users/tharu/Downloads/WhatsApp Image 2024-11-20 at 4.43.12 PM.jpeg') no-repeat center center/cover; 
+    color: #ff0909;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000000e6;
+   
+    height: 20px;
+   
+  }
+  
+  .logo {
+    font-size: 44px;
+    display: inline;
+    font-weight: bold;
+    color: #c01515;
+   
+  }
+
+
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #e60c0c;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ccc;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -100%);
+    text-align: center;
+    max-width: 600px;
+    
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    
+
+  }
+  
+  .highlight {
+    background-color: #dcdcdc;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+  .highlight1{
+    background-color: #735a91;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+  .highlight2{
+    background-color: #26c693;
+    padding: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .hero-content p {
+    margin: 20px 10px;
+    font-size: 18px;
+    color: #bcbcbc;
+  
+    transform: translate(-10px, -10%);
+  }
+  .text{
+    width: 50%;
+    height: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e80b0b;
+    color: #d9d4d4;
+    position: absolute;
+    bottom: -130px;
+    right: 200px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+   
+  }
+  
+  .cta-button:hover {
+    background-color: #2c3402;
+  }
+  
+
+  .overlay-number {
+    position: absolute;
+    bottom: -100px;
+    right: 100px;
+    background-color: white;
+    color: rgb(233, 134, 13);
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .rot {
+    transform: rotate(315deg);
+    text-emphasis: center;
+  }
+  
